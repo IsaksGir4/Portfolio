@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<header>
+
+    <a href="index.html">
+        <img class="logo" src="./images/Logo.png" alt="Personal Logo">
+    </a>
+
+    <div class="nav-bg">
+        <nav class="principal-navigation container">
+            <a href="index.html">Home</a>
+            <a href="about-me.html">About Me</a>
+            <a href="proyects.html">Projects</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contact Me</a>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="contact-info1">
+        <h2>Contact</h2>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Contact me by filling in all the fields</legend>
+
+                <div class="contenedor-campos">
+                    <div class="campo">
+                        <label>Name</label>
+                        <input class="input-text" type="text" placeholder="Your name">
+                    </div>
+
+                    <div class="campo">
+                        <label>Phone Number</label>
+                        <input class="input-text" type="tel" placeholder="Your phone">
+                    </div>
+
+                    <div class="campo">
+                        <label>Email</label>
+                        <input class="input-text" type="email" placeholder="Your Email">
+                    </div>
+
+                    <div class="campo">
+                        <label>Message</label>
+                        <textarea class="input-text"></textarea>
+                    </div>
+                </div> <!-- .contenedor-campos -->
+
+                <div class="alinear-derecha flex">
+                    <input class="boton w-sm-100" type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Connect with me</h2>
+        <ul>
+            <li><strong>Address:</strong> magorisol@gmail.com</li>
+            <li>
+                <img class="linked-img" src="./images/linkedIn.png" alt="Linked-img">
+                <div class="contenedor-LinkedIn">
+                    <a href="https://www.linkedin.com/in/isaac-giraldo-b65ba7223/"><strong>LinkedIn</strong></a>
+                </div>
+            </li>
+            <li>
+                <img class="git-img" src="./images/githubLogo.png" alt="Git-img">
+                <div class="contenedor-Github">
+                    <a href="https://github.com/IsaksGir4"><strong>GitHub</strong></a>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <p>All rights reserved. Engineer Isaac Giraldo</p>
+</footer>
+
+</body>
+</html>
