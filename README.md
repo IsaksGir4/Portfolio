@@ -12,7 +12,6 @@ I am a professional in Administrative and Systems Engineering with skills in:
 ## 🔗 Live Demo  
 [Check my portfolio here!](https://isaksgir4.github.io/Portfolio/)  
 
-## 📩 Contact Me  
-- Email: **magorisol@gmail.com**  
+## 📩 Contact Me   
 - [LinkedIn](https://www.linkedin.com/in/isaac-giraldo-b65ba7223/)  
 - [GitHub](https://github.com/IsaksGir4)  
